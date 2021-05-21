@@ -23,7 +23,7 @@ namespace secret_rotator
                 .Filter("") //todo: filter to only non-empty arrays
                 .GetAsync();
 
-                
+                // https://graph.microsoft.com/v1.0/servicePrincipals?$count=true&$select=id,appDisplayName,keyCredentials&$filter=keyCredential/any(x:x/endDateTime lt '2021-12-31')
 
             //expiringSecrets.Select(x=> new { x.Id, x.AppDisplayName, x.KeyCredentials })
 
