@@ -1,0 +1,6 @@
+[submodule "aad-secret-manager"]
+	path = aad-secret-manager
+	url = https://github.com/jpda/aad-secret-manager
+[submodule "msal-ext"]
+	path = msal-ext
+	url = https://github.com/jpda/msal-ext
